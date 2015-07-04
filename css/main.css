@@ -1,0 +1,41 @@
+
+div#maincontainer {
+  background-color: #dddddd;
+  width: 500px;
+  height: 400px;
+  padding: 0;
+  margin: 1em;
+  position: relative;
+  float: left;
+}
+
+div.floatbox {
+  position: absolute;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+	z-index: 0;
+}
+
+div.floatbox div.handle {
+  width: 16px;
+  height: 16px;
+}
+
+div#maincontainer div.ui-selected {
+  outline: 1px solid black;
+  z-index: 1;
+}
+
+div#boxinfo {
+  float: left;
+  width: 500px;
+}
+
+div.colorslider {
+  margin-bottom: 1em;
+}
+
+div#toolbar {
+  clear: both;
+}
